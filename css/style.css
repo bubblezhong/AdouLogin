@@ -1,0 +1,80 @@
+*{
+	margin:0;
+	padding: 0;
+}
+  body{
+  background: url(../images/bac-last.png) no-repeat center fixed;
+  background-size: 100%;
+  -moz-background-size:100%;
+  -webkit-background-size:100%;
+  /*background-attachment:fixed; */
+  font-size: 100%;
+}
+  .login-container{
+    /*width: 1000px;*/
+    margin: 0 auto;
+    /*height: 600px;*/
+    padding: 1px;
+  }
+  .pic-AD{
+    /*width: 400px;*/
+    margin:auto;
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 7%;
+  }
+  .wrap{
+    margin:0 auto;
+     width: 530px;
+     height: 323px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: url(../images/bac-login-530.png);
+  }
+
+
+.head-image{
+  text-align: center;
+}
+.login{
+  width: 390px;
+	position: relative;
+	left: 18%;
+	
+}
+.login>div{
+	font-family: 宋体;
+	font-size: 1em;
+	margin-bottom: 15px;
+  margin-top: 15px;
+} 
+.login>div a{
+	color:#0044dd;
+  text-decoration: none;
+}
+.login>div input{
+  border: 0.8px solid #a0a0a0;
+  background-color: #fff;
+  opacity: 0.5;
+	height: 20px;
+	width: 200px;
+	padding-left: 0.5em;
+}
+.btn{
+  text-align: center;
+}
+.btn button{
+	width: 77px;
+    height: 28px;
+    border: 0.8px solid #a0a0a0;
+    border-radius: 5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    background-color: #394d71;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow:0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+    font-family: 宋体;
+    font-size: 1.2em;
+    flood-color: #000;
+}
